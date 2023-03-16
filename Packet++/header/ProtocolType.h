@@ -1,4 +1,4 @@
-#ifndef PCAPPP_PROTOCOL_TYPES
+﻿#ifndef PCAPPP_PROTOCOL_TYPES
 #define PCAPPP_PROTOCOL_TYPES
 
 #include <stdint.h>
@@ -296,6 +296,11 @@ namespace pcpp
 	 * NFLOG (Linux Netfilter NFLOG) Protocol
 	 */
 	const ProtocolType NFLOG = 0x400000000000;
+
+	/**
+	 * NBNS (NetBIOS Name Service) Protocol
+	 */
+	const ProtocolType NBNS = 0x800000000000;
 
 	/**
 	 * An enum representing OSI model layers

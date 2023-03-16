@@ -1,4 +1,4 @@
-#ifndef PACKETPP_UDP_LAYER
+﻿#ifndef PACKETPP_UDP_LAYER
 #define PACKETPP_UDP_LAYER
 
 #include "Layer.h"
@@ -81,7 +81,7 @@ namespace pcpp
 
 		/**
 		 * Currently identifies the following next layers: DnsLayer, DhcpLayer, VxlanLayer, SipRequestLayer, SipResponseLayer,
-		 * RadiusLayer. Otherwise sets PayloadLayer
+		 * RadiusLayer, NbnsLayer. Otherwise sets PayloadLayer
 		 */
 		void parseNextLayer();
 
