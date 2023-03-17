@@ -1,4 +1,4 @@
-#ifndef PACKETPP_ETH_LAYER
+﻿#ifndef PACKETPP_ETH_LAYER
 #define PACKETPP_ETH_LAYER
 
 #include "Layer.h"
@@ -65,6 +65,8 @@ namespace pcpp
 #define PCPP_ETHERTYPE_IEEE_802_1AD  0x88A8
 	/** Wake on LAN */
 #define PCPP_ETHERTYPE_WAKE_ON_LAN   0x0842
+	/** EtherCAT */
+#define PCPP_ETHERTYPE_ECAT 	     0x88A4
 
 
 	/**
